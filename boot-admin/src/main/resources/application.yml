@@ -38,6 +38,11 @@ logging:
 
 # Spring配置
 spring:
+  main:
+    banner-mode: off
+  output:
+    ansi:
+      enabled: ALWAYS
   # 资源信息
   messages:
     # 国际化资源文件路径
